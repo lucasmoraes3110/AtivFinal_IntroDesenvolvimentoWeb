@@ -1,0 +1,133 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/* Cabeçalho */
+#logo2Faculdade{
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 380px;
+    display: inline-block;
+}
+
+header{
+    background: lightslategray;
+    padding-bottom: 10px;
+}
+
+#titulo{
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    font-weight: bolder;
+}
+
+
+
+/* Conteúdo principal */
+#ligthYagami{
+    width: 27%;
+    margin-left: 20px;
+}
+
+#primeiroBloco{
+    display: flex;
+    background: lightseagreen;
+    padding: 4%;
+}
+
+#palavrasLight {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#primeiroBloco, div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#L{
+    width: 18%;
+    margin-right: 20px;
+}
+
+#segundoBloco{
+    display: flex;
+    background: lightsalmon;
+    padding: 4%;
+}
+
+#palavrasL {
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+#segundoBloco, div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#logorodape{
+    width: 20%;
+
+    display: inline-block;
+}
+
+#terceiroBloco{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#terceiroBloco a{
+    border: 1px solid #0c0107;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: #ffffff;
+    background: blue;
+    transition: all 0.8s ease;
+}
+
+#terceiroBloco a:hover{
+    background: transparent;
+    color: black;
+    transition: all 0.8s ease;
+}
+
+#terceiroBloco{
+    background: lightslategray;
+}
+
+p:hover{
+    color: red;
+}
+
+#ligthYagami:hover{
+    width: 700px;
+}
+
+#L:hover{
+    width: 1500px;
+}
+
+
+
+/* Rodapé */
+footer {
+	text-align: center;
+    padding: 40px 0;
+    background: lightslategray;
+}
+
+.copyright {
+	font-size: 20px;
+}
+
+
